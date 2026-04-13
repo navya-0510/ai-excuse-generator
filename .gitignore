@@ -1,0 +1,49 @@
+cd C:\Users\91981\Desktop\ai-excuse-generator
+
+# Create .gitignore file
+@"
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Audio files
+*.mp3
+*.wav
+
+# Temporary files
+*.tmp
+temp/
+*.log
+
+# Environment variables
+.env
+
+# Proof files (optional - remove if you want to share examples)
+proof_*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Out-File .gitignore -Encoding utf8
